@@ -1,0 +1,71 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+
+        display: grid;
+        place-items: center;
+        font-family: 'Koulen', sans-serif;
+        background-image:url(mesh.png);
+
+
+}
+
+.container{
+        width: 10%;
+       min-height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+
+}
+.countdown{
+        display: flex;
+        justify-content: space-evenly;
+        width: 120%;
+        flex-wrap: wrap;
+}
+.countdown div{
+        display: grid;
+        place-items: center;
+        padding: 10px;
+
+}
+h1{
+        text-align: center;
+        font-size: 800%;
+        display: flex;
+        color: black
+}
+
+
+p{
+        display: grid;
+        place-items: center;
+        border: solid 3px black;
+        height: 120px;
+        width: 120px;
+        font-size: 50px;
+        border-radius: 20px;
+}
+span{
+        font-size: 25px;
+        color: black;
+}
+.msj-final{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: grid;
+        place-items: center;
+        transform: translateY(-100%);
+        transition: ease-in-out 0.5s;
+        color: red;
+
+}
