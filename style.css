@@ -6,10 +6,10 @@ body{
         display: grid;
         place-items: center;
         font-family: 'Inconsolata', monospace;
-        background-image:url(mesh2.png);
+        background-image:url(mesh3.png);
 }
 font{
-        font-family: 'Inconsolata', monospace;
+        font-family: 'indie-flower', cursive;
         font-size: 80px;
         margin-top: 80px;
         margin-bottom: 0px;
