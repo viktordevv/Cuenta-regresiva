@@ -5,7 +5,7 @@ $seconds = document.getElementById('seconds'),
 $finalMensaje = document.querySelector('.msj-final');
 
 //Fecha de finalización
-const finalDate = new Date('Nov 04, 2022 00:00:00').getTime();
+const finalDate = new Date('Oct 20, 2022 00:00:00').getTime();
 
 let interval = setInterval(function(){
     //formato fecha actual
